@@ -15,12 +15,3 @@ function literalMatch< Out, Key extends string | number = ( string | number ) >(
   return obj[ key ]()
 }
 
-type Literals = 'a' | 'b' | 'c' | 'd'
-function mapLiteralToNumber( literals: Literals){
-  return literalMatch( literals, {
-    'a': () => 1,
-    'b': () => 2,
-    'c': () => 3,
-    'd': () => 4,
-  } )
-}
