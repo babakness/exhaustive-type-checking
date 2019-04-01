@@ -1,13 +1,17 @@
 {
   "name": "@babakness/exhaustive-type-checking",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
+    "prepublish": "npm test && npm build",
+    "test": "ts-node src/index.test.ts",
     "dev": "tsc -w",
     "build": "tsc"
   },
   "devDependencies": {
+    "@types/node": "^11.13.0",
+    "ts-node": "^8.0.3",
     "tsc": "^1.20150623.0",
     "typescript": "^3.3.4000"
   },
