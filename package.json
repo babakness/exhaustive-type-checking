@@ -1,6 +1,6 @@
 {
-  "name": "@babakness/exhaustive-literal-type-checking",
-  "version": "0.0.7",
+  "name": "@babakness/exhaustive-type-checking",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
