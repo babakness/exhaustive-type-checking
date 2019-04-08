@@ -1,5 +1,5 @@
 
-<img src="https://raw.githubusercontent.com/babakness/exhaustive-literal-type-checking/master/.github/images/animation.gif" />
+<img src="https://raw.githubusercontent.com/babakness/exhaustive-type-checking/master/.github/images/animation.gif" />
 
 This project was inspired by this StackOverflow question:
 
