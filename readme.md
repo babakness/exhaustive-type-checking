@@ -92,5 +92,5 @@ export function makeDessert( fruit: Fruit ) {
 
 See the video tutorial for more details
 
-[![Tutorial on YouTube](https://raw.githubusercontent.com/babakness/exhaustive-type-checking/master/.github/images/video-image.png)](https://www.youtube.com/watch?v=SexXTM70w-M)
+[![Tutorial on YouTube](https://raw.githubusercontent.com/babakness/exhaustive-type-checking/master/.github/images/video-image-play-overlay.png)](https://www.youtube.com/watch?v=SexXTM70w-M)
 
