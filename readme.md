@@ -7,6 +7,12 @@ https://stackoverflow.com/questions/39419170/how-do-i-check-that-a-switch-block-
 
 I wanted that didn't rely on switch and supported currying. So I cooked this up.
 
+# Install
+
+```bash
+npm install @babakness/exhaustive-type-checking
+```
+
 # Overview
 
 This package exposes a helper type and three helper functions. Compare the switch pattern with those offered by this package.
