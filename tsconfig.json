@@ -1,4 +1,8 @@
 {
+  "exclude": [
+    "src/**/*.test.ts",
+    "lib/**/*"
+  ],
   "compilerOptions": {
     /* Basic Options */
     "target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
@@ -13,6 +17,7 @@
     // "outFile": "./",                       /* Concatenate and emit output to single file. */
     "outDir": "lib",                        /* Redirect output structure to the directory. */
     "rootDir": "src",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+    
     // "composite": true,                     /* Enable project compilation */
     // "removeComments": true,                /* Do not emit comments to output. */
     // "noEmit": true,                        /* Do not emit outputs. */
